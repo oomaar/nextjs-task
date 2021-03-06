@@ -5,6 +5,10 @@ export const Nav = styled.nav`
     height: 80px;
     display: flex;
     align-items: center;
+
+    @media screen and (max-width: 600px) {
+        height: 60px;
+    }
 `;
 
 export const SubContainer = styled.div`
