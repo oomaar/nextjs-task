@@ -1,4 +1,5 @@
 import Head from 'next/head';
+import { Feed } from '../Components';
 
 export default function Home() {
   return (
@@ -8,12 +9,10 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      {/* Navbar */}
+      <Feed />
       {/* right setion blank */}
       {/* feed section (Scroll) */}
       {/* left setion blank */}
-
-      <h1>Layout Test</h1>
     </div>
   )
 }
