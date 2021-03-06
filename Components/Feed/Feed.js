@@ -1,3 +1,4 @@
+import { Post } from "..";
 import {
     FeedContainer,
     FeedWrapper,
@@ -9,7 +10,7 @@ const Feed = () => {
         <FeedContainer>
             <FeedWrapper>
                 <FeedScroll>
-                    <h1 style={{ margin: '0px' }}>Testing Feed Rpeat the h1 1000000 times</h1>
+                    <Post />
                 </FeedScroll>
             </FeedWrapper>
         </FeedContainer>
