@@ -15,7 +15,7 @@ export const FeedWrapper = styled.div`
 
 export const FeedScroll = styled.div`
     margin: 0 auto;
-    padding: 0 10px;
+    padding: 0 10px 100px;
     max-width: 800px;
     width: 100%;
     background: #f0f0f0;

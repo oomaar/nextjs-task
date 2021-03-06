@@ -16,8 +16,9 @@ export const TopBox = styled.div`
     align-items: center;
 `;
 
-export const Image = styled.div`
+export const Image = styled.img`
     margin: 15px;
+    height: 30px;
 `;
 
 export const Title = styled.h3`
