@@ -5,12 +5,12 @@ import {
     FeedScroll,
 } from "../../styles/styledFeed";
 
-const Feed = () => {
+const Feed = ({ posts }) => {
     return (
         <FeedContainer>
             <FeedWrapper>
                 <FeedScroll>
-                    <Post />
+                    <Post posts={posts} />
                 </FeedScroll>
             </FeedWrapper>
         </FeedContainer>
