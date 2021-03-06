@@ -43,6 +43,7 @@ export const ButtonsWrapper = styled.div`
     display: flex;
     flex: 0.5;
     align-items: center;
+    justify-content: center;
 
     @media screen and (max-width: 1000px) {
         display: none;
@@ -59,7 +60,7 @@ export const Button = styled.button`
     cursor: pointer;
     color: #00a47c;
     transition: all 0.4s ease-in-out;
-    margin: auto;
+    margin: 50px;
     
     &.loginBtn {
         background: transparent;
